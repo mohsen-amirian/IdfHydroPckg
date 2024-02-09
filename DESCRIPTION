@@ -24,8 +24,8 @@ Imports:
   CoSMoS,
   lubridate
 Collate:
-  'R/netcdf_data_extractor.R'
-  'R/calculate_idf.R'
-  'R/utils/idf_visualization.R'
+  'netcdf_data_extractor.R'
+  'calculate_idf.R'
+  'utils/idf_visualization.R'
 
   
