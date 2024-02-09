@@ -36,5 +36,5 @@ plotIDFCurves(idf_data)
 
 ## Logger and Data Storage
 
-This project includes a logger for recording important events and messages during execution. When cloning the project to your local system, data will be stored in the logs folder with a name based on the log_year_month_day structure. The logger is designed to assist in debugging and tracking the execution of functions within the package.
+This project includes a logger for recording important events and messages during execution. When cloning the project to your local system, data will be stored in the logs folder with a name based on the log_year_month_day structure. The logger is designed to assist in debugging and tracking the execution of functions within the package. Also it is capable of logging when being used , but you need to add 'logs/' directory first.
 
