@@ -26,6 +26,6 @@ Imports:
 Collate:
   'netcdf_data_extractor.R'
   'calculate_idf.R'
-  'utils/idf_visualization.R'
+  'idf_visualization.R'
 
   
