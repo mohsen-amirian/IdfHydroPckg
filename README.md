@@ -33,3 +33,8 @@ idf_data <- calculate_idf(data)
 # Example usage: Plot IDF curves
 plotIDFCurves(idf_data)
 ```
+
+## Logger and Data Storage
+
+This project includes a logger for recording important events and messages during execution. When cloning the project to your local system, data will be stored in the logs folder with a name based on the log_year_month_day structure. The logger is designed to assist in debugging and tracking the execution of functions within the package.
+
