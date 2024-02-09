@@ -1,0 +1,31 @@
+Package: IdfHydroPckg
+Type: Package
+Title: Hydrological Package for IDF (Intensity-Duration-Frequency) Analysis
+Version: 0.1.0
+Author: Mohsen Amirian
+Maintainer: xamim003@studenti.czu.cz
+Description: 
+    IdfHydroPckg is an R package designed for conducting Intensity-Duration-Frequency (IDF) analysis in hydrology. 
+    It provides functions for importing NetCDF files, calculating IDF models, and visualizing IDF curves.
+    The package is intended to assist hydrologists, researchers, and engineers in analyzing extreme precipitation events 
+    and understanding their frequency and intensity patterns.
+    Use four spaces when indenting paragraphs within the Description.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports:
+  sf,
+  curl,
+  data.table,
+  ggplot2,
+  terra,
+  ncdf4,
+  ncdf4.helpers,
+  CoSMoS,
+  lubridate
+Collate:
+  'R/netcdf_data_extractor.R'
+  'R/calculate_idf.R'
+  'R/utils/idf_visualization.R'
+
+  
